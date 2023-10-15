@@ -27,16 +27,16 @@ export default function Banner() {
         loop
       >
         <SwiperSlide>
-          <Image src={slide1} alt="Background image" width={1240} />
+          <Image src={slide1} alt="Background image" width={1550} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={slide3} alt="Background image" width={1240} />
+          <Image src={slide3} alt="Background image" width={1550} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={slide2} alt="Background image" width={1240} />
+          <Image src={slide2} alt="Background image" width={1550} />
         </SwiperSlide>
       </Swiper>
-      <div className="bg-[var(--orange)] absolute top-[125px] left-[150px] z-20 p-4 w-[350px] text-[var(--white)]">
+      <div className="bg-[var(--orange)] absolute top-[100px] left-[100px] md:top-[250px] md:left-[250px] z-20 p-4 w-[350px] text-[var(--white)]">
         <h2 className="uppercase font-bold text-xl mb-2">lorem ipsum dolor</h2>
         <p>
           Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique
