@@ -5,8 +5,10 @@
 :root {
   --white: #fff;
   --gray: #828282;
+  --dark-gray: #404A58;
   --orange: #e76924;
   --light-blue: #24a9e7;
+  --yellow: #ffc40c;
 }
 
 .navLink {
