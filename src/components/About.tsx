@@ -1,5 +1,6 @@
 import Image from "next/image";
 import aboutImage from "../../public/about-image.png";
+import Circle from "./Circle";
 
 type AboutProps = {
     percentual: number,
@@ -32,16 +33,9 @@ export default function About({ percentual, hour, cost }: AboutProps) {
                     sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
                 </p>
                 <div className="flex justify-between mt-6">
-                    <div className="relative">
-                        <svg>
-                            <circle cx={70} cy={70} r={70} fill="var(--white)"></circle>
-                            <circle cx={70} cy={70} r={63} fill="var(--yellow)"></circle>
-                        </svg>
-                        <h2 className="absolute top-[56px] left-[48px] text-2xl font-bold text-[var(--dark-gray)]">{percentual}%</h2>
-                    </div>
-                    
-                    <div style={progressBarStyle}>{hour}%</div>
-                    <div style={progressBarStyle}>{cost}%</div>  
+                    <Circle progress={75} /> 
+                    <Circle progress={66} /> 
+                    <Circle progress={50} /> 
                 </div>
             </div>
         </section>
