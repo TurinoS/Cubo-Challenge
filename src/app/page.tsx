@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
+import DataSection from "@/components/DataSection";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HowItWorks from "@/components/HowItWorks";
@@ -16,6 +17,7 @@ export default function Home() {
         <About percentual={75} hour={33} cost={25}/>
         <HowItWorks />
         <Register />
+        <DataSection />
       </main>
       <Footer />
     </>

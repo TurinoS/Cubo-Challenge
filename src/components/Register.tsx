@@ -7,6 +7,7 @@ export default function Register() {
         <section className="flex flex-col items-center bg-[var(--light-blue)] p-10 text-[var(--white)]">
             <h2 className="uppercase text-3xl font-bold ">Cadastre-se</h2>
             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            
             <form className="flex gap-4 mt-6">
                 <div className='flex items-center px-2 text-2xl bg-[var(--white)] text-[var(--dark-gray)]'>
                     <IoPersonSharp />
