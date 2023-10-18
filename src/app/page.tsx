@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
+import Contacts from "@/components/Contacts";
 import DataSection from "@/components/DataSection";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -18,6 +19,7 @@ export default function Home() {
         <HowItWorks />
         <Register />
         <DataSection />
+        <Contacts />
       </main>
       <Footer />
     </>
