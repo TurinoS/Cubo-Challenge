@@ -8,7 +8,7 @@ type DataProps = {
 
 export default function DataCircle({ data1, data2, data3, data4, data5 }: DataProps) {
     return(
-        <svg>
+        <svg className="w-[185px]">
             <g>
                 <circle
                     r={60} 
@@ -69,7 +69,6 @@ export default function DataCircle({ data1, data2, data3, data4, data5 }: DataPr
                     stroke-dashoffset={(384 - (data5 * 378) / 100)}
                 />
             </g>
-            
         </svg>
     )
 }
